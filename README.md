@@ -1,3 +1,3 @@
 # create-svelte
 
-Code for the website [jezreal.com](jezreal.com) (WIP)
+Code for the website [https://jezreal.com](jezreal.com) (WIP)
