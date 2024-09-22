@@ -45,7 +45,11 @@
 			<a href="mailto:jezreeljoshuam@gmail.com" target="_blank">
 				Send an email (jezreeljoshuam@gmail.com)
 			</a>
-			<a href="/resume" download>Download my CV</a>
+			<a href={data.url} download>Download my CV</a>
 		</div>
 	</div>
 </div>
+
+<script>
+export let data
+</script>
