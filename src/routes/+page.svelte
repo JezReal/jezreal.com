@@ -1,37 +1,51 @@
-<div class="flex flex-row p-2 w-screen justify-center mt-32 gap-36 grow">
+<div class="flex flex-col justify-center p-16">
 	<div>
-		<h1 class="font-bold text-9xl mb-6">Jezreel Joshua Martin</h1>
-		<h3 class="text-7xl font-semibold">@<span class="underline">JezReal</span></h3>
+		<h1>Jezreel Joshua Martin</h1>
+		<p>
+			Hello there! I am a software engineer focused on web development. Constantly improving and
+			learning new things has always been my passion which has helped me in learning new
+			technologies and allowed me to be competent in an unfamiliar stack and be productive within a
+			relaitvely short period of time.
+		</p>
+	</div>
 
-		<div class="mt-36">
-			<p class="text-xl text-wrap">
-				A motivated and curiosity driven software engineer who has a strong interest in back-end
-				development. In his spare time, he likes learning about the various techonologies and trends
-				in the software field. He also likes to look for ways to improve and grow as a developer.
-			</p>
+	<div id="tech">
+		<h3>Some technologies I have worked with:</h3>
+		<div id="stacks" class="flex flex-col">
+			<ul class="flex flex-row gap-2">
+				<li>Python</li>
+				<li>C#</li>
+				<li>GoLang</li>
+				<li>Javascript/Typescript</li>
+			</ul>
+
+			<ul class="flex flex-row gap-2">
+				<li>Django</li>
+				<li>VueJS</li>
+				<li>SvelteKit</li>
+				<li>ExpressJS</li>
+			</ul>
+
+			<ul class="flex flex-row gap-2">
+				<li>Docker</li>
+				<li>Git & GitHub</li>
+			</ul>
 		</div>
 	</div>
-	<div class="grow">
-		<enhanced:img src="../lib/assets/images/face.jpg" alt="Jezreel" class="rounded-full">
-		</enhanced:img>
+
+	<div id="contact" class="flex flex-col">
+		<p>
+			If you are interested in learning more, you can download my CV and/or contact me through the
+			following channels below:
+		</p>
+
+		<div>
+			<a href="https://github.com/JezReal/" target="_blank">GitHub</a>
+			<a href="https://linkedin.com/in/jezreel-joshua-martin/" target="_blank">LinkedIn</a>
+			<a href="mailto:jezreeljoshuam@gmail.com" target="_blank">
+				Send an email (jezreeljoshuam@gmail.com)
+			</a>
+			<a href="/resume" download>Download my CV</a>
+		</div>
 	</div>
 </div>
-
-<style>
-	img {
-		height: 650px;
-		width: 650px;
-	}
-
-	h1 {
-		color: #a4a4a4;
-	}
-
-	h3 {
-		color: #d9d9d9;
-	}
-
-	p {
-		color: #868686;
-	}
-</style>
